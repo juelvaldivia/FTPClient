@@ -246,7 +246,7 @@ namespace ftp
             }
             else
             {
-                Console.WriteLine("No se descargo ubo un error");
+                Console.WriteLine("No se descargo hubo un error");
             }
 
             Console.ReadLine();
