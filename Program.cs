@@ -141,11 +141,11 @@ namespace ftp
 
                 if (descargarArchivo(carpetaOrigen, carpetaRemota, destino))
                 {
-                    Console.WriteLine("se subió el archivo: " + nombreArchivo);
+                    Console.WriteLine("se descargó el archivo: " + nombreArchivo);
                 }
                 else
                 {
-                    Console.WriteLine("no se subió el archivo: " + nombreArchivo);
+                    Console.WriteLine("no se descargó el archivo: " + nombreArchivo);
                 }
             }
         }
